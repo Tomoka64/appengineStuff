@@ -1,0 +1,24 @@
+{{template "header"}}
+
+<form action="/put" method="POST">
+   <label>
+       Name:
+       <input type="text" name="Name">
+   </label>
+   <label>
+      Age:
+      <input type="text" name="Age">
+    </label>
+   <label>
+       Introduction:
+       <textarea name="intro"
+                 id="credentials"
+                 cols="30"
+                 rows="10"></textarea>
+   </label>
+   <input type="submit">
+
+</form>
+
+
+{{template "footer"}}
